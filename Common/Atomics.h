@@ -18,11 +18,7 @@
 #ifndef _ATOMIC_H_
 #define _ATOMIC_H_
 
-#ifdef _XBOX
-
-#include "Atomic_Xbox360.h"
-
-#elif defined(_WIN32)
+#ifdef _WIN32
 
 #include "Atomic_Win32.h"
 
