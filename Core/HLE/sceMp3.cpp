@@ -407,9 +407,9 @@ int __Mp3InitContext(Mp3Context *ctx) {
 		ERROR_LOG(ME, "Failed to initialize the resampling context %d", ret);
 		return -1;
 	}
-
-	return 0;
 #endif
+	return 0;
+
 }
 
 int sceMp3Init(u32 mp3) {
